@@ -1,9 +1,9 @@
 import React from 'react';
-import './aboutme.css';
+import './components.css';
 
 const AboutMe = () => {
   return (
-    <div id="about-me-section">
+    <div id="about-me-section" className="section">
       <div id="title-box" className="underline">
         <h1>Profile</h1>
         <div>UNSW graduate in Bachelors of Computer Science</div>

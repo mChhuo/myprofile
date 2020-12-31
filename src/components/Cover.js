@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './cover.css';
+import './components.css';
 import ProfilePic from '../assets/picture-of-me.jpg';
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

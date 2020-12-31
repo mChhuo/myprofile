@@ -1,3 +1,7 @@
+.section {
+  padding: 20px 0px 100px 0px;
+}
+
 #cover {
   padding-top: 100px;
   display: flex;
@@ -54,4 +58,42 @@
   overflow: hidden;
   text-align: center;
   margin: 50px 0px;
+}
+
+/* About me section */
+#about-me-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #213046;
+}
+
+#title-box {
+  padding: 20px 0px;
+  width: 75%;
+  text-align: center;
+}
+
+.underline {
+  border-bottom: 2px solid #f6f2eb;
+}
+
+#details {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#profile {
+  width: 40%;
+}
+
+/* Experience section */
+
+#experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f2eb;
 }
