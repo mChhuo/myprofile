@@ -4,9 +4,10 @@ import './components.css';
 const AboutMe = () => {
   return (
     <div id="about-me-section" className="section">
-      <div id="title-box" className="underline">
+      <div className="underline title-box">
         <h1>Profile</h1>
-        <div>UNSW graduate in Bachelors of Computer Science</div>
+        <div>UNSW graduate</div>
+        <div>Bachelors of Computer Science</div>
       </div>
       <div id="details">
         <div id="profile">
@@ -23,7 +24,7 @@ const AboutMe = () => {
           <div>
             34 years
           </div>
-          <h3>Email</h3>
+          <h3>Email:</h3>
           <div>
             michaelchhuo10@hotmail.com
           </div>

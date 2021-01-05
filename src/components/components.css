@@ -1,3 +1,6 @@
+* {
+  font-family: 'Roboto-condensed';
+}
 .section {
   padding: 20px 0px 100px 0px;
 }
@@ -30,9 +33,8 @@
 .cover-text {
   font-size: 40pt;
   font-weight: bold;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 1px solid #cccccc;
   padding: 0px 15px;
-  font-family: 'Roboto Condensed';
 }
 
 .sub-text {
@@ -69,31 +71,60 @@
   color: #213046;
 }
 
-#title-box {
+.title-box {
   padding: 20px 0px;
-  width: 75%;
+  width: 60%;
   text-align: center;
 }
 
 .underline {
-  border-bottom: 2px solid #f6f2eb;
+  border-bottom: 1px solid #cccccc;
 }
 
 #details {
   width: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #profile {
-  width: 40%;
+  width: 50%;
 }
 
 /* Experience section */
 
-#experience {
+#experience-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f6f2eb;
+  color: #213046;
+}
+
+#education {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#education > h1 {
+  width: 40%;
+}
+
+.school {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.school-name > h4 {
+  margin: 0;
+}
+
+.school-name {
+  width: 40%;
+}
+
+.school-details {
+  width: 60%;
 }
