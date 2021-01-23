@@ -6,13 +6,14 @@ const AboutMe = () => {
     <div id="about-me-section" className="section">
       <div className="underline title-box">
         <h1>Profile</h1>
-        <div>UNSW graduate</div>
-        <div>Bachelors of Computer Science</div>
+        <div>Bachelors of Computer Science - UNSW graduate</div>
+        <div>Someone who loves dogs, volleyball and all things coding.</div>
       </div>
       <div id="details">
         <div id="profile">
           <h1>About me</h1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non lectus id libero gravida lobortis. Nunc sed scelerisque turpis, non commodo lorem. In non risus odio. Quisque sagittis ipsum in ex elementum, in placerat felis luctus. Duis luctus ex non ligula lacinia hendrerit. Sed nisi nisi, maximus a auctor a, congue in nulla. In porttitor nisi libero, eu maximus ante finibus at. Vivamus posuere viverra posuere. Nulla pellentesque dapibus scelerisque. Vestibulum efficitur ultricies est, nec rhoncus arcu vehicula accumsan. Sed laoreet finibus purus, vitae tempor magna sodales sed. In sagittis lacus vel magna dignissim semper. Nulla cursus tortor eu nunc commodo dictum.
+          I am an all-round developer with a passion for full-stack web development and programming. Hope to use my knowledge of back-end techniques, an interest in creative UI/UX as well as uses of algorithms in programming challengs. I enjoy working in a team and demonstrate a strong work ethic. Having been a tutor and currently a volleyball coach, I have developed great communication and interpersonal skills.
+
         </div>
         <div>
           <h1>Details</h1>
@@ -20,10 +21,12 @@ const AboutMe = () => {
           <div>
             Michael Chhuo
           </div>
+          <br />
           <h3>Age:</h3>
           <div>
-            34 years
+            22 years
           </div>
+          <br />
           <h3>Email:</h3>
           <div>
             michaelchhuo10@hotmail.com
