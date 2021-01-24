@@ -2,6 +2,10 @@
   font-family: 'Roboto-condensed';
 }
 
+a { 
+  color: inherit;
+} 
+
 hr {
   border-top: 1px solid #cccccc;
   width: 60%;
@@ -192,6 +196,15 @@ h4 {
 
 .project div:nth-child(2) {
   padding-left: 10px;
+}
+
+#links {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 30%;
+  row-gap: 20px;
+  text-align: left;
+  /* border: 1px solid red; */
 }
 
 /* .opaque-overlay {
