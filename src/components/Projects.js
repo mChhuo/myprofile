@@ -65,7 +65,6 @@ const Projects = () => {
                   <FontAwesomeIcon
                     icon={faExternalLinkSquareAlt}
                     size="sm"
-                    id="westside-website"
                     className="external-link"
                   />
                 </a>
@@ -98,7 +97,6 @@ const Projects = () => {
                   <FontAwesomeIcon
                     icon={faExternalLinkSquareAlt}
                     size="sm"
-                    id="westside-website"
                     className="external-link"
                   />
                 </a>
@@ -128,7 +126,6 @@ const Projects = () => {
                   <FontAwesomeIcon
                     icon={faExternalLinkSquareAlt}
                     size="sm"
-                    id="westside-website"
                     className="external-link"
                   />
                 </a>
@@ -158,7 +155,6 @@ const Projects = () => {
                   <FontAwesomeIcon
                     icon={faExternalLinkSquareAlt}
                     size="sm"
-                    id="westside-website"
                     className="external-link"
                   />
                 </a>
@@ -172,6 +168,35 @@ const Projects = () => {
               <br />
               <h4>What I learnt:</h4>
               React Native, React Hooks, React Components
+            </div>
+          </div>
+        </div>
+        <div className="project-container">
+          <div className="project">
+            <h2>
+              Secret Santa Generator
+              <span>
+                <a
+                  href="https://github.com/mChhuo/kris-kringle"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faExternalLinkSquareAlt}
+                    size="sm"
+                    className="external-link"
+                  />
+                </a>
+              </span>
+            </h2>
+            <div>Python Script</div>
+            <div className="project-details">
+              <h4>Technical Details:</h4>
+              Python
+              <br />
+              <br />
+              <h4>What I learnt:</h4>
+              Python smtplib, string derangements
             </div>
           </div>
         </div>
