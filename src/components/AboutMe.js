@@ -12,7 +12,7 @@ const AboutMe = () => {
       <div id="details">
         <div id="profile">
           <h1>About me</h1>
-          I am an all-round developer with a passion for full-stack web development and programming. Hope to use my knowledge of back-end techniques, an interest in creative UI/UX as well as uses of algorithms in programming challengs. I enjoy working in a team and demonstrate a strong work ethic. Having been a tutor and currently a volleyball coach, I have developed great communication and interpersonal skills.
+          I am an all-round developer with a passion for full-stack web development and programming. Hope to use my knowledge of back-end techniques, an interest in creative UI/UX as well as uses of algorithms in programming challenges. I enjoy working in a team and demonstrate a strong work ethic. Having been a tutor and currently a volleyball coach, I have developed great communication and interpersonal skills.
 
         </div>
         <div>

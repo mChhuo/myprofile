@@ -7,41 +7,41 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Cover = () => {
-  useEffect(() => {
+  // useEffect(() => {
 
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".cover-container",
-        start: "top top",
-        end: "+=2500",
-        pin: true,
-        scrub: 0.5,
-      },
-    });
+  //   const tl = gsap.timeline({
+  //     scrollTrigger: {
+  //       trigger: ".cover-container",
+  //       start: "top top",
+  //       end: "+=2500",
+  //       pin: true,
+  //       scrub: 0.5,
+  //     },
+  //   });
 
-    tl.set("#creative", { autoAlpha: 0 })
-    tl.to('#creative', {
-      autoAlpha: 1,
-    })
-      .from("#hardworking", {
-        xPercent: -100,
-        duration: 1,
-        ease: 'power2.out',
-        stagger: 0.6
-      })
-      .from("#passionate", {
-        xPercent: 100,
-        duration: 1,
-        ease: 'power2.out',
-        stagger: 0.6
-      })
-      .from("#motivated", {
-        yPercent: 90,
-        duration: 1,
-        ease: 'power2.out',
-        stagger: 0.6
-      })
-  }, [])
+  //   tl.set("#creative", { autoAlpha: 0 })
+  //   tl.to('#creative', {
+  //     autoAlpha: 1,
+  //   })
+  //     .from("#hardworking", {
+  //       xPercent: -100,
+  //       duration: 1,
+  //       ease: 'power2.out',
+  //       stagger: 0.6
+  //     })
+  //     .from("#passionate", {
+  //       xPercent: 100,
+  //       duration: 1,
+  //       ease: 'power2.out',
+  //       stagger: 0.6
+  //     })
+  //     .from("#motivated", {
+  //       yPercent: 90,
+  //       duration: 1,
+  //       ease: 'power2.out',
+  //       stagger: 0.6
+  //     })
+  // }, [])
 
   return (
     <>
@@ -56,7 +56,7 @@ const Cover = () => {
           <div className="cover-text sub-text">
             My interactive resume
           </div>
-          <div id="wrapper">
+          {/* <div id="wrapper">
             <div id="creative" className="testimony">
               A creative full-stack developer
             </div>
@@ -69,7 +69,7 @@ const Cover = () => {
             <div id="motivated" className="testimony">
               Motivated to learn
             </div>
-          </div>
+          </div> */}
         </div>
 
       </section>
