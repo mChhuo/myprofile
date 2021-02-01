@@ -9,8 +9,8 @@ gsap.registerPlugin(ScrollTrigger);
 const Projects = () => {
   useEffect(() => {
     let proxy = { skew: 0 },
-      skewSetter = gsap.quickSetter(".project", "skewY", "deg"), // fast
-      clamp = gsap.utils.clamp(-2, 2); // the skew is no more than 20
+      skewSetter = gsap.quickSetter(".project", "skewY", "deg"),
+      clamp = gsap.utils.clamp(-2, 2);
 
     ScrollTrigger.create({
       onUpdate: (self) => {
@@ -73,11 +73,11 @@ const Projects = () => {
             <div>Work in progress</div>
             <div className="project-details">
               <h4>Technical Details:</h4>
-              React, Stripe payment processing
+              React, Stripe, MongoDB, Node.js, Express
               <br />
               <br />
               <h4>What I plan to learn:</h4>
-              Stripe, Account security
+              Stripe, User authentication, Payment processing
             </div>
           </div>
         </div>

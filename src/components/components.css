@@ -154,10 +154,6 @@ h4 {
   box-sizing: border-box;
   margin: 30px 0px;
 }
-/* 
-.project:hover {
-  opacity: 0.3;
-} */
 
 .project > h2 {
   margin-bottom: 0px;
@@ -216,16 +212,87 @@ button {
   margin-top: 20px;
 }
 
-/* .opaque-overlay {
-  position: absolute;
-  top: 20;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  padding-top: 50px;
-}
+/* Responsive section */
 
-.opaque-overlay:hover {
-  opacity: 0.7;
-} */
+/* Smartphones ----------- */
+@media only screen and (max-width: 375px) {
+  .underline {
+    width: 75%;
+  }
+
+  #profile-picture {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #ffffff;
+  }
+
+  .cover-text {
+    font-size: 20pt;
+    padding: 20px 15px 10px 15px;
+  }
+
+  .sub-text {
+    font-size: 15pt;
+    padding-top: 10px;
+  }
+
+  #about-me-quote {
+    padding-top: 5px;
+    font-size: 9pt;
+  }
+
+  #details {
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    text-align: center;
+  }
+
+  #profile {
+    width: 100%;
+  }
+
+  .experience-subsection {
+    width: 85%;
+    text-align: center;
+  }
+  .location {
+    flex-direction: column;
+    align-items: center;
+  }
+  .location-name {
+    width: 100%;
+  }
+  .location-details {
+    padding-top: 10px;
+    text-align: left;
+    width: 70%;
+    font-size: 11pt;
+  }
+
+  #project-grid {
+    grid-template-columns: auto;
+    width: 70%;
+  }
+
+  .project > h2 {
+    font-size: 15pt;
+  }
+
+  #footer {
+    font-size: 8pt;
+  }
+
+  #links {
+    grid-template-columns: auto;
+    width: 60%;
+  }
+
+  #links > div,
+  #footer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

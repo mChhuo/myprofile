@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
       <br />
-      <div>
+      <div id="email">
         <FontAwesomeIcon icon={faEnvelope} size="lg" />
         &nbsp; michaelchhuo10@hotmail.com
       </div>

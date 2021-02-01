@@ -7,7 +7,9 @@ const AboutMe = () => {
       <div className="underline title-box">
         <h1>Profile</h1>
         <div>Bachelors of Computer Science - UNSW graduate</div>
-        <div>Someone who loves dogs, volleyball and all things coding.</div>
+        <div id="about-me-quote">
+          Someone who loves dogs, volleyball and all things coding.
+        </div>
       </div>
       <div id="details">
         <div id="profile">
