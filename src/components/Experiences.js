@@ -12,7 +12,7 @@ const Experiences = () => {
         </div>
       </div>
       <div className="experience-subsection">
-        <h1>Education</h1>
+        <h2>Education</h2>
         <div className="location">
           <div className="location-name">
             <h4>University of New South Wales</h4>
@@ -40,7 +40,7 @@ const Experiences = () => {
       <div className="underline">&nbsp;</div>
       {/* Careers */}
       <div className="experience-subsection">
-        <h1>Professional Employment</h1>
+        <h2>Professional Employment</h2>
         <div className="location">
           <div className="location-name">
             <h4>SVNSW Volleyball Coach</h4>
