@@ -6,19 +6,19 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const ContentsWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  width: 115px;
-  color: white;
   position: absolute;
   top: 100%;
   right: 100px;
 `;
 
 const ContentsItem = styled.div`
+  color: white;
   text-align: center;
   font-size: 10pt;
   font-weight: bold;
-  height: 35px;
-  padding: 30px 15px;
+  width: 115px;
+  height: 80px;
+  padding: 30px 15px 15px 15px;
   background-color: #05386b;
 `;
 
@@ -38,9 +38,9 @@ const ContentsBar = () => {
     <ContentsWrapper id="contents">
       <ContentsItem>Profile</ContentsItem>
       <ContentsItem>Experiences</ContentsItem>
-      <ContentsItem>Skills</ContentsItem>
       <ContentsItem>Projects</ContentsItem>
       <ContentsItem>Extras</ContentsItem>
+      <ContentsItem>Skills</ContentsItem>
     </ContentsWrapper>
   );
 };

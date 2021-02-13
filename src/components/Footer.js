@@ -6,7 +6,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <div id="footer" className="section">
-      <h1>Contact</h1>
+      <h1 style={{ color: "white" }}>Contact</h1>
       <div id="links">
         <div>
           <FontAwesomeIcon icon={faLinkedin} size="lg" />

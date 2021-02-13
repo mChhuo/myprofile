@@ -1,4 +1,5 @@
 import "./App.css";
+import "antd/dist/antd.css";
 import Cover from "./components/Cover";
 import AboutMe from "./components/AboutMe";
 import Experiences from "./components/Experiences";
@@ -15,9 +16,9 @@ function App() {
       <ContentsBar />
       <AboutMe />
       <Experiences />
-      <Skills />
       <Projects />
       <Extras />
+      <Skills />
       <Footer />
     </>
   );
