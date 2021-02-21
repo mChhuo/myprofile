@@ -58,7 +58,7 @@ const Skills = () => {
   ];
 
   return (
-    <TempDiv className="section">
+    <TempDiv id="skills" className="section">
       <div className="underline title-box">
         <h1>Skills</h1>
         <div>

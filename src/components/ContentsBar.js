@@ -36,11 +36,24 @@ const ContentsBar = () => {
   });
   return (
     <ContentsWrapper id="contents">
-      <ContentsItem>Profile</ContentsItem>
-      <ContentsItem>Experiences</ContentsItem>
-      <ContentsItem>Projects</ContentsItem>
-      <ContentsItem>Extras</ContentsItem>
-      <ContentsItem>Skills</ContentsItem>
+      <ContentsItem>
+        <a href="#about-me-section">Profile</a>
+      </ContentsItem>
+      <ContentsItem>
+        <a href="#experience-section">Experiences</a>
+      </ContentsItem>
+      <ContentsItem>
+        <a href="#project-section">Projects</a>
+      </ContentsItem>
+      <ContentsItem>
+        <a href="#extra-curricular-section">Extras</a>
+      </ContentsItem>
+      <ContentsItem>
+        <a href="#skills">Skills</a>
+      </ContentsItem>
+      <ContentsItem>
+        <a href="#footer">Contact</a>
+      </ContentsItem>
     </ContentsWrapper>
   );
 };
